@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toku/components/category_item.dart';
 
 
 class Home extends StatelessWidget {
@@ -7,73 +8,33 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xffFEF6DB),
+        backgroundColor:const Color(0xffFEF6DB),
         appBar: AppBar(
-          backgroundColor: Color(0xff46322B),
-          title: Text('Toku'),
+          backgroundColor:const Color(0xff46322B),
+          title:const Text('Toku'),
         ),
         body: Column(
           children: [
-            Container(
-              alignment: Alignment.centerLeft,
-              padding: EdgeInsets.only(left: 16),
-              height: 56,
-              width: double.infinity,
-              color: Color(0xffEF9235),
-              child: Text(
-                'Numbers',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                ),
+            Category(
+              text:'Numbers',
+              color:const Color(0xff46322B),
               ),
-            ),
 
-              Container(
-              alignment: Alignment.centerLeft,
-              padding: EdgeInsets.only(left: 16),
-              height: 56,
-              width: double.infinity,
-              color: Color.fromARGB(255, 41, 102, 35),
-              child: Text(
-                'Family Members',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                ),
+              Category(
+                text: 'Family Members',
+                color: const Color(0xff558B37),
               ),
-            ),
 
-              Container(
-              alignment: Alignment.centerLeft,
-              padding: EdgeInsets.only(left: 16),
-              height: 56,
-              width: double.infinity,
-              color: Color.fromARGB(255, 128, 39, 80),
-              child: Text(
-                'Colors',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                ),
+              Category(
+                text: 'Colors',
+                color: const Color(0xff79359F) ,
               ),
-            ),
 
-              Container(
-              alignment: Alignment.centerLeft,
-              padding: EdgeInsets.only(left: 16),
-              height: 56,
-              width: double.infinity,
-              color: Color.fromARGB(255, 30, 137, 225),
-              child: Text(
-                'Phrases',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                ),
+              Category(
+                text: 'Phrases',
+                color: const Color(0xff50ADC7),
               ),
-            )
-         
+              
          
 
           ],
@@ -81,3 +42,5 @@ class Home extends StatelessWidget {
       );
   }
 }
+
+
