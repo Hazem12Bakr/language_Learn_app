@@ -5,8 +5,11 @@ class ColorsM extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      
+    return  Scaffold(
+      appBar: AppBar(
+        backgroundColor:const Color(0xff46322B),
+        title: const Text('colors'),
+      ),
     );
   }
 }
