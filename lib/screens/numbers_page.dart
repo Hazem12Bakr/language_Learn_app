@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 
 class Numbers extends StatelessWidget {
@@ -10,6 +12,13 @@ class Numbers extends StatelessWidget {
         backgroundColor:const Color(0xff46322B),
         title: const Text('Numbers'),
         ),
+        body:Container(
+          child:const Row(
+            children: [
+
+            ],
+          ),
+        ) ,
     );
   }
 }
