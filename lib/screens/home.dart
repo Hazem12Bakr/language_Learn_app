@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
               color:const Color(0xffEF9235),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
-                  return   Numbers();
+                  return   NumbersPage();
                 }));
               },
               ),
