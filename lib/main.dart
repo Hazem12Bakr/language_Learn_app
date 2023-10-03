@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:toku/screens/colors.dart';
+import 'package:toku/screens/family_members.dart';
 import 'package:toku/screens/home.dart';
 import 'package:toku/screens/numbers_page.dart';
 
@@ -15,7 +17,7 @@ class TokuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NumbersPage(),
+      home: Home(),
     );
   }
 }

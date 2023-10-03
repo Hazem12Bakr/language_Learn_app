@@ -1,59 +1,69 @@
 // ignore_for_file: avoid_unnecessary_containers, sized_box_for_whitespace, must_be_immutable, prefer_const_constructors_in_immutables, avoid_print, avoid_types_as_parameter_names
 
 import 'package:flutter/material.dart';
-import 'package:toku/components/item.dart';
-import 'package:toku/models/number.dart';
+import 'package:toku/components/list_item.dart';
+import 'package:toku/models/item.dart';
 
 class NumbersPage extends StatelessWidget {
   NumbersPage({Key? key}) : super(key: key);
 
-  final List<Number> numbers = const [
-    Number(
+  final List<ItemModel> numbers = const [
+    ItemModel(
+      sound: 'sounds/numbers/number_one_sound.mp3',
       image: 'assets/images/numbers/number_one.png',
       jpName: 'ichi',
       enName: 'one',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_two_sound.mp3',
       image: 'assets/images/numbers/number_two.png',
       jpName: 'Ni',
       enName: 'tow',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_three_sound.mp3',
       image: 'assets/images/numbers/number_three.png',
       jpName: 'San',
       enName: 'three',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_four_sound.mp3',
       image: 'assets/images/numbers/number_four.png',
       jpName: 'Shi',
       enName: 'four',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_five_sound.mp3',
       image: 'assets/images/numbers/number_five.png',
       jpName: 'Go',
       enName: 'five',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_six_sound.mp3',
       image: 'assets/images/numbers/number_six.png',
       jpName: 'Roku',
       enName: 'six',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_seven_sound.mp3',
       image: 'assets/images/numbers/number_seven.png',
       jpName: 'Sebun',
       enName: 'seven',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_eight_sound.mp3',
       image: 'assets/images/numbers/number_eight.png',
       jpName: 'hachi',
       enName: 'eight',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_nine_sound.mp3',
       image: 'assets/images/numbers/number_nine.png',
       jpName: 'Kyu',
       enName: 'nine',
     ),
-    Number(
+    ItemModel(
+      sound: 'sounds/numbers/number_ten_sound.mp3',
       image: 'assets/images/numbers/number_ten.png',
       jpName: 'Ju',
       enName: 'ten',
@@ -68,20 +78,26 @@ class NumbersPage extends StatelessWidget {
         title: const Text('Numbers'),
       ),
       body: ListView.builder(
-        itemCount: numbers.length,  // to set how many times it will be repeated
+        itemCount: numbers.length, // to set how many times it will be repeated
         itemBuilder: (context, index) {
-         // print(index);
-          return Item(number: numbers[index]);
+          // print(index);
+          return ListItem(
+            color: const Color(0xffEF9235),
+            item: numbers[index],
+          );
         },
       ),
     );
   }
 
-// unused method 
-  List<Widget> getlist(List<Number> numbers){
+// unused method
+  List<Widget> getlist(List<ItemModel> numbers) {
     List<Widget> itemsList = [];
     for (int i = 0; i < numbers.length; i++) {
-      itemsList.add(Item(number: numbers[i]));
+      itemsList.add(ListItem(
+        color:const Color(0xffEF9235),
+        item: numbers[i],
+      ));
     }
     return itemsList;
   }
