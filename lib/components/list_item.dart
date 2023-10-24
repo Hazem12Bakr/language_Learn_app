@@ -19,10 +19,12 @@ class ListItem extends StatelessWidget {
       child: Row(
         children: [
           Container(
-              color: const Color(0xffFFF6DC), child: Image.asset(item.image!)),
+            color: const Color(0xffFFF6DC),
+            child: Image.asset(item.image!),
+          ),
           Expanded(
               child: ItemInfo(
-               item: item,
+            item: item,
           )),
         ],
       ),

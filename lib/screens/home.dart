@@ -13,6 +13,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xffFEF6DB),
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: const Color(0xff46322B),
         title: const Text('Toku'),
       ),
