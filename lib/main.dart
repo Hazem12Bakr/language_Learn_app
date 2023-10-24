@@ -11,9 +11,10 @@ class TokuApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      theme: ThemeData(fontFamily: "playpen"),
+      home: const Home(),
     );
   }
 }
