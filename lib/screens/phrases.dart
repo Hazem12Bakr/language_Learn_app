@@ -10,47 +10,47 @@ class PhrasesPage extends StatelessWidget {
 
   final List<ItemModel> phrasesList = const [
     ItemModel(
-      sound: 'sounds/phrases/what_is_your_name.wav',
+      sound: 'assets/sounds/phrases/what_is_your_name.wav',
       jpName: 'Kuro',
       enName: 'what is your name',
     ),
     ItemModel(
-      sound: 'sounds/phrases/are_you_coming.wav',
+      sound: 'assets/sounds/phrases/are_you_coming.wav',
       jpName: 'Shiro',
       enName: 'are you coming',
     ),
     ItemModel(
-      sound: 'sounds/phrases/yes_im_coming.wav',
+      sound: 'assets/sounds/phrases/yes_im_coming.wav',
       jpName: 'translate it ',
       enName: 'yes iam comming',
     ),
     ItemModel(
-      sound: 'sounds/phrases/how_are_you_feeling.wav',
+      sound: 'assets/sounds/phrases/how_are_you_feeling.wav',
       jpName: 'Midori',
       enName: 'how are you feeling',
     ),
     ItemModel(
-      sound: 'assets/sounds/phrases/i_love_anime.wav',
+      sound: 'assets/assets/sounds/phrases/i_love_anime.wav',
       jpName: 'Gure',
       enName: 'i love anime',
     ),
     ItemModel(
-      sound: 'sounds/phrases/i_love_programming.wav',
+      sound: 'assets/sounds/phrases/i_love_programming.wav',
       jpName: 'Ki',
       enName: 'i love programming',
     ),
     ItemModel(
-      sound: 'sounds/phrases/programming_is_easy.wav',
+      sound: 'assets/sounds/phrases/programming_is_easy.wav',
       jpName: 'Dasutiiero',
       enName: 'programming is easy',
     ),
     ItemModel(
-      sound: 'sounds/phrases/where_are_you_going.wav',
+      sound: 'assets/sounds/phrases/where_are_you_going.wav',
       jpName: 'Chairo no',
       enName: 'where are you going',
     ),
     ItemModel(
-      sound: 'sounds/phrases/dont_forget_to_subscribe.wav',
+      sound: 'assets/sounds/phrases/dont_forget_to_subscribe.wav',
       jpName: 'Aka',
       enName: 'dont forget to subscribe',
     ),

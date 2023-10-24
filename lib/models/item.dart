@@ -12,10 +12,11 @@ class ItemModel {
     required this.enName,
   });
 
-  playsound() {
+  playsound()async {
     // to play sound from assets
+    
     final player = AudioPlayer(); // object form the audioplayer class
-    player.play(AssetSource(sound));
+    await player.play(DeviceFileSource(sound));
     // will immediately play
     //will not put asset word in the url as it has been added by default
   }
