@@ -24,7 +24,7 @@ class FamilyMembers extends StatelessWidget {
       sound: 'assets/sounds/family_members/grand father.wav',
       image: 'assets/images/family_members/family_grandfather.png',
       jpName: 'Ojisan',
-      enName: 'grandfather',
+      enName: 'Uncle',
     ),
     ItemModel(
       sound: 'assets/sounds/family_members/grand mother.wav',
@@ -41,7 +41,7 @@ class FamilyMembers extends StatelessWidget {
     ItemModel(
       sound: 'assets/sounds/family_members/daughter.wav',
       image: 'assets/images/family_members/family_daughter.png',
-      jpName: 'Nisan',
+      jpName: 'Musume',
       enName: 'daughter',
     ),
     ItemModel(
@@ -59,13 +59,13 @@ class FamilyMembers extends StatelessWidget {
     ItemModel(
       sound: 'assets/sounds/family_members/younger brohter.wav',
       image: 'assets/images/family_members/family_younger_brother.png',
-      jpName: 'Kyu',
+      jpName: 'Ototo',
       enName: 'Younger brother',
     ),
     ItemModel(
       sound: 'assets/sounds/family_members/younger sister.wav',
       image: 'assets/images/family_members/family_younger_sister.png',
-      jpName: 'Ju',
+      jpName: 'Imoto',
       enName: 'younger sister',
     ),
   ];

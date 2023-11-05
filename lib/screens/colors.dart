@@ -9,9 +9,9 @@ class ColorsPage extends StatelessWidget {
 
   final List<ItemModel> colorsList = const [
     ItemModel(
-      sound: 'sounds/colors/black.wav',
+      sound: 'assets/sounds/colors/black.wav',
       image: 'assets/images/colors/color_black.png',
-      jpName: 'Kuro',
+      jpName: 'burakku',
       enName: 'Black',
     ),
     ItemModel(
@@ -35,7 +35,7 @@ class ColorsPage extends StatelessWidget {
     ItemModel(
       sound: 'assets/sounds/colors/gray.wav',
       image: 'assets/images/colors/color_gray.png',
-      jpName: 'Gure',
+      jpName: 'Gure-',
       enName: 'gray',
     ),
     ItemModel(
@@ -47,14 +47,14 @@ class ColorsPage extends StatelessWidget {
     ItemModel(
       sound: 'assets/sounds/colors/dusty yellow.wav',
       image: 'assets/images/colors/color_dusty_yellow.png',
-      jpName: 'Dasutiiero',
+      jpName: 'hokori ppoi kiiro',
       enName: 'dusty_yellow',
     ),
     ItemModel(
       sound: 'assets/sounds/colors/brown.wav',
       image: 'assets/images/colors/color_brown.png',
-      jpName: 'Chairo no',
-      enName: 'browen',
+      jpName: 'Chairo',
+      enName: 'brown',
     ),
     
   ];

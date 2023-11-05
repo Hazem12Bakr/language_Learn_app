@@ -11,47 +11,47 @@ class PhrasesPage extends StatelessWidget {
   final List<ItemModel> phrasesList = const [
     ItemModel(
       sound: 'assets/sounds/phrases/what_is_your_name.wav',
-      jpName: 'Kuro',
-      enName: 'what is your name',
+      jpName: 'Namae wa nandesuka?',
+      enName: 'what is your name?',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/are_you_coming.wav',
-      jpName: 'Shiro',
-      enName: 'are you coming',
+      jpName: 'Kimasu ka?',
+      enName: 'are you coming?',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/yes_im_coming.wav',
-      jpName: 'translate it ',
+      jpName: 'Hai, watashi wa kite imasu ',
       enName: 'yes iam comming',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/how_are_you_feeling.wav',
-      jpName: 'Midori',
-      enName: 'how are you feeling',
+      jpName: 'Go kibun wa ikagadesu ka?',
+      enName: 'how are you feeling?',
     ),
     ItemModel(
-      sound: 'assets/assets/sounds/phrases/i_love_anime.wav',
-      jpName: 'Gure',
+      sound: 'assets/sounds/phrases/i_love_anime.wav',
+      jpName: 'Watashi wa anime ga daisukidesu',
       enName: 'i love anime',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/i_love_programming.wav',
-      jpName: 'Ki',
+      jpName: 'Watashi wa puroguramingu ga daisukidesu',
       enName: 'i love programming',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/programming_is_easy.wav',
-      jpName: 'Dasutiiero',
+      jpName: 'Puroguramingu wa kantandesu',
       enName: 'programming is easy',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/where_are_you_going.wav',
-      jpName: 'Chairo no',
-      enName: 'where are you going',
+      jpName: 'Doko ni iku no?',
+      enName: 'where are you going?',
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/dont_forget_to_subscribe.wav',
-      jpName: 'Aka',
+      jpName: 'Kodoku suru koto o wasurenaide kudasai',
       enName: 'dont forget to subscribe',
     ),
   ];
