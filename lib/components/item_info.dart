@@ -19,14 +19,15 @@ class ItemInfo extends StatelessWidget {
                 item.jpName,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 16,
+                  overflow: TextOverflow.fade,
                 ),
               ),
               Text(
                 item.enName,
                 style: const TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 16,
                 ),
               ),
             ],

@@ -36,7 +36,7 @@ class PhrasesPage extends StatelessWidget {
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/i_love_programming.wav',
-      jpName: 'Watashi wa puroguramingu ga daisukidesu',
+      jpName: 'Watashi wa puroguramingu \n ga daisukidesu',
       enName: 'i love programming',
     ),
     ItemModel(
@@ -51,8 +51,8 @@ class PhrasesPage extends StatelessWidget {
     ),
     ItemModel(
       sound: 'assets/sounds/phrases/dont_forget_to_subscribe.wav',
-      jpName: 'Kodoku suru koto o wasurenaide kudasai',
-      enName: 'dont forget to subscribe',
+      jpName: 'Kodoku suru koto o wasurenaide \n kudasai',
+      enName: 'dont forget to subscribe.',
     ),
   ];
 
